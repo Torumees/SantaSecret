@@ -9,9 +9,78 @@ html {
 }
 
 .container-fluid {
-    border: 1px solid black;
+    padding: 0;
 }
 
-.row {
-    border: 2px solid green;
+
+#title {
+    background-color: var(--santa-red);
+    padding: 3% 15%;
+    color:white;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 55%;
+    transform: rotate(10deg);
+}
+
+/*Features Section */
+
+#feature {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3 {
+    font-family: "Monserrat";
+}
+
+.feature-box p {
+    color: #8f8f8f;
+}
+
+.feature-box i {
+    color: var(--santa-red);
+    margin: 1rem;
+}
+
+.feature-box i:hover {
+    color: var(--santa-green);
 }
